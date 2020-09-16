@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class PublishConfig(AppConfig):
+class APIConfig(AppConfig):
     name = 'dandiapi.api'
-    verbose_name = 'DANDI: Publish'
+    verbose_name = 'DANDI: API'
